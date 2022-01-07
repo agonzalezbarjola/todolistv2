@@ -1,0 +1,157 @@
+body {
+  height: 100%;
+  padding-top: 10px;
+  background: radial-gradient(
+        1.5em 6.28571em at 1.95em,
+        rgba(255, 255, 255, 0) 50%,
+        rgba(255, 255, 255, 0.25) 50%,
+        rgba(255, 255, 255, 0.25) 55%,
+        rgba(255, 255, 255, 0) 55%
+      )
+      0 0,
+    radial-gradient(
+        1.5em 6.28571em at -0.45em,
+        rgba(255, 255, 255, 0) 50%,
+        rgba(255, 255, 255, 0.25) 50%,
+        rgba(255, 255, 255, 0.25) 55%,
+        rgba(255, 255, 255, 0) 55%
+      )
+      1.5em 5.5em,
+    radial-gradient(
+        2.3em 4.57143em at 2.99em,
+        rgba(255, 255, 255, 0) 50%,
+        rgba(255, 255, 255, 0.3) 50%,
+        rgba(255, 255, 255, 0.3) 55%,
+        rgba(255, 255, 255, 0) 55%
+      )
+      0 0,
+    radial-gradient(
+        2.3em 4.57143em at -0.69em,
+        rgba(255, 255, 255, 0) 50%,
+        rgba(255, 255, 255, 0.3) 50%,
+        rgba(255, 255, 255, 0.3) 55%,
+        rgba(255, 255, 255, 0) 55%
+      )
+      2.3em 4em,
+    radial-gradient(
+        3.5em 6.28571em at 4.55em,
+        rgba(255, 255, 255, 0) 50%,
+        rgba(255, 255, 255, 0.25) 50%,
+        rgba(255, 255, 255, 0.25) 55%,
+        rgba(255, 255, 255, 0) 55%
+      )
+      0 0,
+    radial-gradient(
+        3.5em 6.28571em at -1.05em,
+        rgba(255, 255, 255, 0) 50%,
+        rgba(255, 255, 255, 0.25) 50%,
+        rgba(255, 255, 255, 0.25) 55%,
+        rgba(255, 255, 255, 0) 55%
+      )
+      3.5em 5.5em,
+    radial-gradient(#15ffa5, #00ced1);
+  background-color: mediumspringgreen;
+  background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em,
+    3.5em 11em, 100% 100%;
+  background-repeat: repeat;
+
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(15, 121, 80);
+  text-transform: uppercase;
+}
+
+.container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 30px;
+}
+
+.search {
+  
+  align-items: center;
+  width: 100%;
+}
+
+form {
+  border: palegreen;
+  display: flex;
+}
+
+input {
+  padding: 15px 10px;
+  outline: none;
+  width: 400px;
+}
+
+.li-container {
+  background-color: white;
+  width: 100%;
+  color: darkslategray;
+  margin-top: 20px;
+  align-items: center;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  background-color: rgb(151, 209, 187);
+  border-radius: 10px;
+  margin-top: 15px;
+  display: flex;
+}
+
+li p {
+  margin: 0;
+  padding: 15px;
+  width: 100%;
+}
+
+.delete_Btn {
+  margin-left: auto;
+  border: none;
+  background-color: #e31746;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  outline: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 10%;
+  font-size: 1.2em;
+}
+
+.delete_Btn:hover {
+  cursor: pointer;
+  background-color: rgb(187, 10, 10);
+}
+
+.add_btn {
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: mediumspringgreen;
+  font-size: 1.4rem;
+  font-weight: 800;
+  outline: none;
+}
+
+.add_btn:hover {
+  cursor: pointer;
+  background-color: rgb(34, 26, 153);
+}
+
+.empty {
+  color: darkslategrey;
+}
